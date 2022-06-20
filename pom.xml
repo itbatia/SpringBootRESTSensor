@@ -20,7 +20,7 @@
         <!-- Здесь необходимо внести данные от своей БД -->
         <database.url>jdbc:postgresql://localhost:5432/SpringBootRESTSensor</database.url>
         <username>postgres</username>
-        <password>postgres</password>
+        <password>itbatia7104203</password>
 
     </properties>
 

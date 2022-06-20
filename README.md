@@ -1,6 +1,6 @@
 # SpringBootRESTSensor
 
-**SpringBootRESTSensor** - это RESTful Web Service.
+***SpringBootRESTSensor*** - это RESTful Web Service.
 
 **Cтек технологий проекта:** _Spring Boot, PostgreSQL, Hibernate, Maven, Flyway_.
 
@@ -27,7 +27,7 @@
 :white_check_mark: (GET) http://localhost:8080/measurements/rainyDaysCount - получить количество дождливых дней   
 
 Для тестирования этого сервиса написано второе приложение-клиент - __ClientForSensor__.   
-ClientForSensor взаимодействует с пользователем через консоль (куда и отдаёт полученные данные) + предоставляет график изменения температур.   
+ClientForSensor взаимодействует с пользователем через консоль (куда и отдаёт полученные данные) + предоставляет график изменения температур. Ссылка на репозиторий: ...   
 
 Также для тестирования можно использовать Postman или Insomnia.
 
