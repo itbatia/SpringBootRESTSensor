@@ -26,7 +26,7 @@
 :white_check_mark: (GET) http://localhost:8080/measurements/{id} - получить измерение по id из БД   
 :white_check_mark: (GET) http://localhost:8080/measurements/rainyDaysCount - получить количество дождливых дней   
 
-Для тестирования этого сервиса написано второе приложение-клиент - __"ClientForSensor"__.   
+Для тестирования этого сервиса написано приложение-клиент - __"ClientForSensor"__.   
 ClientForSensor взаимодействует с пользователем через консоль (куда и отдаёт полученные данные) + предоставляет график изменения температур. Ссылка на репозиторий: https://github.com/itbatia/ClientForSensor
 
 Также для тестирования можно использовать Postman или Insomnia.
