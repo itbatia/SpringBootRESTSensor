@@ -21,12 +21,12 @@
 :white_check_mark: (POST) http://localhost:8080/sensors/registration - зарегистрировать новый сенсор в БД   
 :white_check_mark: (POST) http://localhost:8080/measurements/add - записать измерения сенсора в БД    
 :white_check_mark: (GET) http://localhost:8080/sensors - получить список всех зарегистрированных сенсоров из БД   
-:white_check_mark: (GET) http://localhost:8080/sensors/{id} - получить сенсор по id   
+:white_check_mark: (GET) http://localhost:8080/sensors/{id} - получить сенсор по id из БД   
 :white_check_mark: (GET) http://localhost:8080/measurements - получить список всех измерений из БД   
-:white_check_mark: (GET) http://localhost:8080/measurements/{id} - получить измерение по id   
+:white_check_mark: (GET) http://localhost:8080/measurements/{id} - получить измерение по id из БД   
 :white_check_mark: (GET) http://localhost:8080/measurements/rainyDaysCount - получить количество дождливых дней   
 
-Для тестирования этого сервиса написано второе приложение-клиент - __ClientForSensor__.   
+Для тестирования этого сервиса написано второе приложение-клиент - __"ClientForSensor"__.   
 ClientForSensor взаимодействует с пользователем через консоль (куда и отдаёт полученные данные) + предоставляет график изменения температур. Ссылка на репозиторий: https://github.com/itbatia/ClientForSensor
 
 Также для тестирования можно использовать Postman или Insomnia.
